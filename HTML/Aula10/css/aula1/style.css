@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(236, 156, 183);
+}
+
+body::-webkit-scrollbar {
+    background-color: #941450;
+    width: 10px;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+}
+
+nav {
+   padding: 15px;
+   margin: auto;
+   
+}
+
+nav ul {
+    display: flex;
+    gap: 150px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(241, 221, 228);
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    font-weight: 600;
+    font-size: 18px;
+    
+}
+
+nav a:hover {
+    border-bottom: 3px solid rgb(236, 1, 80);
+    color: rgb(214, 4, 74);
+    
+}
+
+.logo {
+    width: 130px;
+    padding: 20px;
+    align-items: flex-start;
+    
+}
+
+
+
+section {
+    background-image: url(/assets/glitter3.jpg);
+    
+    padding: 30px;
+    
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 3px 2px 9px black;
+    border: 2px solid rgba(194, 3, 67, 0.664);
+    text-align: center;
+    margin-bottom: 20px;
+
+
+    
+}
+
+section h1 {
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    font-size: xx-large;
+    
+}
+
+
+section p {
+    text-align: justify;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 20px;
+    color: #42010f;
+}
+
+p:hover {
+    color: rgb(206, 6, 56);
+    transition: .8s;
+}
+
+button {
+    width: 80px;
+    height: 30px;
+    border-radius: 16px;
+    background-color: rgb(180, 5, 63);
+    color: white;
+    border-style: none;
+    margin: 20px;
+    box-shadow: 2px 3px 5px black;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.07) translateY(-3px);
+    box-shadow: 0 5px 15px #000000d2;
+}
+
+form {
+    width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #8b0431;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+    
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #ecd5e1;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: vertical;
+    font-size: 14px;
+}
+
+p {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #df287d;
+}
+
+input {
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+label {
+    font-weight: normal;
+    color: #f3e4ed;
+    margin-right: 15px;
+}
+
+#submit {
+    width: 80px;
+    height: 30px;
+    border-radius: 16px;
+    background-color: rgb(180, 5, 63);
+    color: white;
+    border-style: none;
+    margin: 20px;
+    box-shadow: 2px 3px 5px black;
+    cursor: pointer;
+
+}
+ #submit:hover {
+    background-color: #b30757;
+ }
+
+
+ footer {
+    background-color: black;
+    color: #ecd5e1;
+    text-align: center;
+    height: 2%;;
+ }

@@ -1,0 +1,16 @@
+body {
+    background-color: palevioletred;
+
+}
+
+header {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.bannerLaricel{
+    width: 600px;
+    border-radius: 24px;
+    
+}

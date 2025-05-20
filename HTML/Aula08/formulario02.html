@@ -7,6 +7,8 @@
 </head>
 <body>
     <form action="">
+      <fieldset id="cardapio">
+        <legend>Seleção de sabores</legend>
         <h1>Cardapio Pastelaria</h1>
         <label for=""></label>
         <select name="" id="">
@@ -23,26 +25,27 @@
 
 
         </select>
+      </fieldset>
 
-        <p>Estamos aumentando nossas unidades, sugira sua cidade para nossas novas cidades</p>
-
-        <datalist id="municipios">
-            <option value="jaragua">Pico de jaragua</option>
-            <option value="maua">Pior da lista</option>
-            <option value="Santo Andre">De boa ainda</option>
-            <option value="guarulhos">avião</option>
-            <option value="Aruja">Festas</option>
-            <option value="Ubatuba">Praia Comercio Comida</option>
-            <option value="Igarata">Jet Sky, putas e mcs</option>
-            <option value="São Bernardo do Campo">Não tem trem</option>
-            <option value="Barueri">Dinheiro Dinheiro Dinheiro</option>
-            <option value="Carapicuiba">Assaltos, sequestro, clonagem de cartão</option>
-        </datalist>
-
-        <label for="indicaMunicipio">Insira seu municipio abaixo: </label> 
-        <input type="text" autocomplete="on" list="municipios" name="indicaMunicipio" id="indicaMunicipio">
-
-        <input type="submit" value="Enviar">
+        <fieldset id="">
+            <legend>Localidades</legend>
+            <p>Estamos aumentando nossas unidades, sugira sua cidade para nossas novas cidades</p>
+            <datalist id="municipios">
+                <option value="jaragua">Pico de jaragua</option>
+                <option value="maua">Pior da lista</option>
+                <option value="Santo Andre">De boa ainda</option>
+                <option value="guarulhos">avião</option>
+                <option value="Aruja">Festas</option>
+                <option value="Ubatuba">Praia Comercio Comida</option>
+                <option value="Igarata">Jet Sky, putas e mcs</option>
+                <option value="São Bernardo do Campo">Não tem trem</option>
+                <option value="Barueri">Dinheiro Dinheiro Dinheiro</option>
+                <option value="Carapicuiba">Assaltos, sequestro, clonagem de cartão</option>
+            </datalist>
+            <label for="indicaMunicipio">Insira seu municipio abaixo: </label>
+            <input type="text" autocomplete="on" list="municipios" name="indicaMunicipio" id="indicaMunicipio">
+            <input type="submit" value="Enviar">
+        </fieldset>
     </form>
 </body>
 </html>
