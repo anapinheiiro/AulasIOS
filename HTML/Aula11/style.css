@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.quadrado {
+    width: 10vw; 
+    height: 10vw;
+    min-width: 100px;
+    min-height: 100px;
+    background-color: rgb(216, 18, 94);
+    border: 1px solid rgb(255, 255, 255);
+    
+}

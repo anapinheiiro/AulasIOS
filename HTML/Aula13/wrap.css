@@ -1,0 +1,50 @@
+@charset "UTF-8";   
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(250, 226, 230);
+}
+
+#container{
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 200px;
+    /* delimita um tamanho minimo inicial  */
+
+}
+
+.quadrado {
+    background-color: rgb(221, 89, 133);
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+#quatro {
+    flex-grow: 3; 
+    /* faz com que o elemento cresça dentro do container de acordo com o número indicado, lembrando que todos os items começam com o opadrão 0.Por exemplom, se colocar o valor 2, o elemento ucupara o dobro de espaço */
+    flex-shrink: 3;
+    /* faz com que o elemento diminua mais rapidamente e agressivamente que os outros elementos. */
+}
+
+#seis {
+    flex-basis: 500px; 
+    flex: 1 1 300px;
+    /* flex é uma expresao para os outros 3 elementos flex. 
+    1 - corresponde ao flex grow
+    2 - corresponde ao flex-sharink 
+    3 - corresponde ao flex-basis */
+}
