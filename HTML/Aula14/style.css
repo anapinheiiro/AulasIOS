@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(8, 100px);
+    grid-template-rows: repeat(7, 100px);
+    background-color: antiquewhite;
+    grid-template-areas: ". vermelho vermelho . . vermelho2 vermelho2 ."
+    "vermelho3 . . vermelho4 vermelho4 . . vermelho5"
+    "vermelho6 . . . . . . vermelho7"
+    "vermelho8 . . . . . . vermelho9"
+    ". vermelho10 . . . . vermelho11 ."
+    ". . vermelho12 . . vermelho13 . . "
+    ". . . vermelho14 vermelho14 . . .";
+   
+
+}
+
+.vermelho {
+    background-color: rgb(197, 6, 6);
+    grid-area: vermelho;
+}
+
+.vermelho2 {
+    background-color: rgb(197, 6, 6);
+    grid-area: vermelho2;
+}
+
+.vermelho3 {
+    background-color: rgb(197, 6, 6);
+    grid-area: vermelho3;
+}
+
+.vermelho4 {
+    background-color: rgb(197, 6, 6);
+    grid-area: vermelho4;
+}
+
+.vermelho5 {
+    background-color: rgb(197, 6, 6);
+    grid-area: vermelho5;
+}
+
+.vermelho6 {
+    background-color: rgb(197, 6, 6);
+    grid-area: vermelho6;
+}
+
+.vermelho7 {
+    background-color: rgb(197, 6, 6);
+    grid-area: vermelho7;
+}
+
+.vermelho8 {
+    background-color: rgb(197, 6, 6);
+    grid-area: vermelho8;
+}
+
+.vermelho9 {
+    background-color: rgb(197, 6, 6);
+    grid-area: vermelho9;
+}
+
+.vermelho10 {
+    background-color: rgb(197, 6, 6);
+    grid-area: vermelho10;
+}
+
+.vermelho11 {
+    background-color: rgb(197, 6, 6);
+    grid-area: vermelho11;
+}
+
+.vermelho12 {
+    background-color: rgb(197, 6, 6);
+    grid-area: vermelho12;
+}
+
+.vermelho13 {
+    background-color: rgb(197, 6, 6);
+    grid-area: vermelho13;
+}
+
+.vermelho14 {
+    background-color: rgb(197, 6, 6);
+    grid-area: vermelho14;
+}
